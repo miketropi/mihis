@@ -7,6 +7,7 @@ import {
 } from "@remix-run/react";
 import type { LinksFunction } from "@remix-run/node";
 import { cssBundleHref } from "@remix-run/css-bundle";
+import DefaultTemplate from "./templates/DefaultTemplate";
 
 import styles from "./tailwind.css?url"
 
@@ -34,7 +35,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body>        
         {children}
         <ScrollRestoration />
         <Scripts />
@@ -43,6 +44,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
   );
 }
 
-export default function App() {
-  return <Outlet />;
+export default function App() { 
+  return <DefaultTemplate><Outlet /></DefaultTemplate>;
 }

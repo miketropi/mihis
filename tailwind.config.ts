@@ -6,7 +6,8 @@ export default {
   theme: {
   	extend: {
   		fontFamily: {
-  			sans: [          
+  			sans: [ 
+					"Arial",         
 					"Inter",
 					"ui-sans-serif",
 					"system-ui",
