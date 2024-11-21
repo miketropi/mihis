@@ -1,5 +1,5 @@
 export default function Logo() {
   return <a href="/">
-    mihis
+    Mihis
   </a>
 }
