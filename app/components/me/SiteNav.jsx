@@ -17,8 +17,12 @@ export default function SiteNav() {
       to: '/',
     },
     {
-      name: 'Documentation',
-      to: '/documentation',
+      name: 'Document',
+      to: '/document',
+    },
+    {
+      name: 'Contact',
+      to: '/contact',
     }
   ]
 

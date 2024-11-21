@@ -1,5 +1,5 @@
 export default function Logo() {
-  return <a href="/">
-    Mihis
+  return <a href="/" className="font-semibold text-xl">
+    mihis
   </a>
 }

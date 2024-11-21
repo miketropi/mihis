@@ -9,8 +9,13 @@ export const meta: MetaFunction = () => {
 };
 
 export default function index() {
-  return <div>
-    <h2>Welcome to the Main Layout!</h2>
-    <Button>Click me...!</Button> 
-  </div>;
+  return <main className="">
+    <section className="w-full py-[100px] bg-[#f2f3fc]">
+      Hero section...!
+    </section>
+    <div className="container mx-auto px-4">
+      <h2>Welcome to the Main Layout!</h2>
+      <Button>Click me...!</Button> 
+    </div>
+  </main>
 }
