@@ -11,7 +11,7 @@ export default function HeroSection({ title, description }) {
             dangerouslySetInnerHTML={{__html: description}}></p>
         </div>
         <div>
-          image
+          
         </div>
       </div>
     </div>

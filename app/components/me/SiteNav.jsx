@@ -17,8 +17,8 @@ export default function SiteNav() {
       to: '/',
     },
     {
-      name: 'Document',
-      to: '/document',
+      name: 'Articles',
+      to: '/articles',
     },
     {
       name: 'Contact',
@@ -43,7 +43,7 @@ export default function SiteNav() {
       </NavigationMenuList>
     </NavigationMenu>
     <div className="ml-2 flex gap-2">
-      <Button>Join with Us</Button>
+      <Button>Subscription</Button>
     </div>
   </div> 
 }
