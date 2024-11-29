@@ -3,8 +3,8 @@ import HeroSection from '../components/me/HeroSection';
 
 export const meta = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "Mike, investment history 🐋" },
+    { name: "description", content: "As a dedicated fan of Ethereum, I enjoy staying on top of decentralized innovations and sharing insights from my crypto journey." },
   ];
 };
 
