@@ -1,3 +1,5 @@
+import { json } from "@remix-run/node"; 
+import { authenticator } from "../utils/auth.server";
 import { Button } from "../components/ui/button";
 import HeroSection from '../components/me/HeroSection';
 
@@ -6,6 +8,12 @@ export const meta = () => {
     { title: "Mike, investment history 🐋" },
     { name: "description", content: "As a dedicated fan of Ethereum, I enjoy staying on top of decentralized innovations and sharing insights from my crypto journey." },
   ];
+};
+
+export const loader = async ({ request }) => {
+  let user = await authenticator.authenticate("auth0", request);
+  console.log(user);
+  return json({ ok: true });
 };
 
 export default function index() {
