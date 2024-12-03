@@ -1,5 +1,5 @@
 export default function HeroSection({ title, description }) {
-  return <section className="w-full pt-[150px] pb-[100px] bg-[#f2f3fc] mb-[5vw]">
+  return <section className="w-full pt-[100px] pb-[100px] bg-[#f2f3fc] mb-[5vw]">
     <div className="container mx-auto px-4">
       <div className="grid grid-cols-2 gap-[5vw]">
         <div>

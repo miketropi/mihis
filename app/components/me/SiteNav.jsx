@@ -23,6 +23,10 @@ export default function SiteNav() {
     {
       name: 'Contact',
       to: '/contact',
+    },
+    {
+      name: 'Login / Register',
+      to: '/login',
     }
   ]
 
